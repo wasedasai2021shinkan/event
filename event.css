@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* 共通部分 */
+html{
+  font-size: 100%;
+}
+
+body {
+  font-family: serif;
+  background-color: #EAF4FC;
+  position: absolute;
+  width: 100%;
+  line-height: 1.7;
+}
+
+/* コンテンツ */
+.text {
+  margin: 100px 0;
+  color: #17183B;
+  width: 60%;
+  margin: 0 auto;
+}
+.content img {
+  margin-top: 50px;
+}
+.tour {
+  padding: 40px;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 30px;
+  border-color: #f9a03f;
+}
+.mori {
+  padding: 40px;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 30px;
+  border-color: #f9a03f;
+}
+.tera {
+  padding: 40px;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 30px;
+  border-color: #f9a03f;
+}
+.hiroba {
+  padding: 40px;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 30px;
+  border-color: #f9a03f;
+}
+.text h1 {
+  text-align: center;
+  border-style: double;
+  border-width: 5px;
+  font-size: 24px;
+}
+.text h2 {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+
+/* フッター */
+footer {
+  background-color: #78c1cd;
+  text-align: center;
+  padding: 26px 0;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: serif;
+}
+.wrapper2 {
+  background-color: #78c1cd;
+}
+
+
+.innerbox {
+  margin-top: 5px;
+  background-color: #78c1cd;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;/*水平方向に均等に分布(端は詰める)*/
+}
+
+.footerlogo{
+  margin-top: 5px;
+}
