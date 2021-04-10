@@ -70,7 +70,9 @@ body {
 .text a {
   color: #17183B;
 }
-
+.douga {
+  text-aligh:center;
+}
 
 /* フッター */
 footer {
